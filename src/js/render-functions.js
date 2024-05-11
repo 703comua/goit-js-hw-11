@@ -1,9 +1,6 @@
 export const createMarkup = images => {
   return images.reduce(
-    (
-      html,
-      { tags, webformatURL, largeImageURL, likes, views, comments, downloads }
-    ) => {
+    ( html, { tags, webformatURL, largeImageURL, likes, views, comments, downloads } ) => {
       return (
         html +
         `
